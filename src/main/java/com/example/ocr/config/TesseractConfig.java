@@ -11,7 +11,7 @@ public class TesseractConfig {
     @Bean
     public Tesseract tesseract() {
         Tesseract tesseract = new Tesseract();
-        tesseract.setDatapath("/Users/divyanshchawla/IdeaProjects/ocr-api/src/main/resources/tessdata/eng.traineddata");
+        tesseract.setDatapath("/Users/divyanshchawla/IdeaProjects/ocr-api/src/main/resources/tessdata");
         tesseract.setLanguage("eng");
         return tesseract;
     }
